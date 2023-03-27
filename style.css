@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Delicious+Handrawn&family=Dosis:wght@300;400&family=Hubballi&family=Nothing+You+Could+Do&family=Rajdhani:wght@300&family=Ramabhadra&family=VT323&display=swap');
+url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgb(41, 23, 70);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    color: white;
+    font-size: 32px;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+nav ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.box{
+    /* background-color: aquamarine; */
+    display: flex;
+    /* justify-content: center */
+    font-size: 20px;
+    padding: 2px;
+}
+
+.boxer{
+    display:grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    margin: 10px;
+    /* margin-bottom: 20px; */
+    /* float: right; */
+}
+
+
+.box-content{
+    font-size: 6vw;
+    display:flex;
+    cursor: pointer;
+    justify-content: center;
+    font-family: 'Ramabhadra', sans-serif;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.box-content:hover{
+    background-color: rgb(177, 214, 214);
+}
+
+#info{
+    padding: 50px 150px;
+    font-family: 'Balsamiq Sans', cursive;
+    /* float:left; */
+    margin-top:15px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#moreinfo{
+    font-size:20px;
+    font-family: 'Balsamiq Sans', cursive;
+    padding-top: 40px;
+    padding-left: 100x;
+}
+
+#social-media{
+    font-family: 'Nothing You Could Do', cursive;
+    padding: 0 15px;
+    display: flex;
+    background-color: brown;
+    color:whitesmoke;
+    font-size:15px;
+    justify-content: space-around;
+}
+
+.yaar{
+    display: inline-flex;
+    padding-left: 80px;
+    padding-top:50px;
+}
+#reset{
+    background: hsl(340deg 100% 32%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.front{
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(345deg 100% 47%);
+    color: white;
+    transform: translateY(-6px);
+}
+
+#reset:active .front{
+    transform: translateY(-2px);
+}
+
+/*hiiiiiiiiiiiiiiiiiii*/
+#social-media ul{
+    display: flex;
+    list-style-type: none;
+    /* justify-content: right; */
+    /* padding: 0; */
+    /* margin: 0; */
+    margin-top:4px;
+    margin-bottom:4px;
+    /* transform: translate(-50%, -50%); */
+    display: flex;
+    right:50%;
+}
+
+#social-media h1{
+    justify-content: left;
+}
+#social-media ul li{
+    list-style: none;
+    margin: 0 10px;
+    justify-content: right;
+}
+
+#social-media ul li .fab{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .3s;
+    color: #000;
+}
+
+#social-media ul li .fab:hover{
+    color: #fff;
+}
+
+#social-media ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+#social-media ul li a:hover{
+    transform: translate(0, -10%);
+}
+
+#social-media ul li:nth-child(1) a:hover{
+    background-color: rgba(0, 0, 0, 0.829);
+}
+#social-media ul li:nth-child(2) a:hover{
+    background-color: #E4405F;
+}
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: #0077b5;
+}
+#social-media ul li:nth-child(4) a:hover{
+    background-color: #000;
+}
+/*hiiiiiiiiiiiiiiiiii!*/
+.yaar img{
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+.br-0{
+    border-right:0px;
+}
+
+.bt-0{
+    border-top:0px;
+}
+
+.bl-0{
+    border-left:0px;
+}
+
+.bb-0{
+    border-bottom:0px;
+}
+
+.line{
+    background-color: black;
+    height: 5px;
+    width: 0;
+    position: absolute;
+    background-color: #911d91;
+    transition: width 1s ease-in-out;
+}
